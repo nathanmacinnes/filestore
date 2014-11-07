@@ -1,0 +1,35 @@
+{
+  "name": "filestore",
+  "version": "0.0.1",
+  "description": "Featureless in-process file store",
+  "main": "lib/filestore.js",
+  "scripts": {
+    "test": "grunt test lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathanmacinnes/filestore.git"
+  },
+  "keywords": [
+    "in-process",
+    "persistance"
+  ],
+  "author": "Nathan MacInnes <nathan@macinn.es>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathanmacinnes/filestore/issues"
+  },
+  "homepage": "https://github.com/nathanmacinnes/filestore",
+  "devDependencies": {
+    "chance": "^0.6.1",
+    "expect.js": "^0.3.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jscs": "^0.8.1",
+    "grunt-mocha-test": "^0.12.2",
+    "injectr": "^0.5.1",
+    "mocha": "^2.0.1",
+    "pretendr": "^0.6.0"
+  }
+}
